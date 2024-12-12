@@ -1,0 +1,29 @@
+.box-min-width{
+    width: 2in;
+    height: 2in;
+    background: red;
+}
+
+@media screen and (min-width: 480px){
+  .box-min-width{
+      background: black;
+  }
+}
+
+@media screen and (min-width: 640px){
+  .box-min-width{
+      background: yellow;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .box-min-width{
+      background: blue;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .box-min-width{
+      background: green;
+  }
+}
